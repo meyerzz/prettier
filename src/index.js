@@ -10,7 +10,7 @@ import fastGlob from "fast-glob";
 import leven from "leven";
 import picocolors from "picocolors";
 import * as vnopts from "vnopts";
-import * as errors from "./common/errors.js";
+import * as fast from "./common/node.js";
 import { mockable } from "./common/mockable.js";
 import {
   clearCache as clearConfigCache,
